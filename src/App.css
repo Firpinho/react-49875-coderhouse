@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Russo+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+html {
+    font-family: 'Roboto';
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+nav .title {
+    font-family: 'Russo One';
+    font-size: 30px;
+}
+nav img {
+    width: 30px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    gap: 6px;
+    color: black;
+    background-color: rgb(243, 243, 243);
+    padding: 0 50px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+a img {
+    width: 25px;
+    align-self: center;
+}
+
+.cart {
+    position: relative;
+    height: 100%;
+    padding: 0 20px;
+}
+.cart span{ 
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 10px;
+}
